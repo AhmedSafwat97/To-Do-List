@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: 30px 0;
+    padding: 20px;
+    border: 2px solid black;
+    width: 60%;
+    height: fit-content;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+-   webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.box{
+    padding: 10px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    height: 300px;
+    margin-top: 20px;}
+
+
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.task {
+    border: 2px solid black;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background: rgba(141, 81, 154, 0.75);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-bottom: 3px solid white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.icon:hover {
+    color: yellow;
+    font-size: 25px;
+    transition: 0.2s;
+    cursor: pointer;
+    opacity: 1;
+   
+}
+.icon-star , .icon-trash-o{
+    opacity: 0.5;
+} 
+.icon-trash-o{
+    margin-right: 10px;
+}
+.icon-angry2{
+    color: yellowgreen;
+}
+
+h2{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+} 
+.in{
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    font-weight: 800;
+    
+}
+
+button {all: unset}
+
+.icon-upload{
+    font-size: 20px;
+    margin-left:10px;
+    cursor: pointer;
+
+}
+.icon-upload:hover{
+font-size: 25px;
+transition: 0.2s;
+}
+
+
+/* javascript */
+.dn {
+    display: none;
+}
+
+.icon-heart{
+    color: red;
+}
+
+.icon-heart:hover{
+    color: red;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.done {
+    text-decoration: line-through;
+color:white;
+}
+.orange{
+    color: yellow;
+    opacity: 1;
+}
